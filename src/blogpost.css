@@ -1,0 +1,42 @@
+.display{
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-wrap: wrap;   
+
+}
+.eachblog{
+    box-sizing: border-box;
+    border: 3px double blue;
+    width: 350px;
+    margin-left: 30px;
+    height: 60vh;
+    
+}
+.first{
+    border: 1px dotted black;
+    width: 300px;
+}
+.description{
+    border: 1px dotted black;
+    width: 300px;
+    height: 60vh;
+}
+.container{
+    display: flex;
+    gap: 70px;
+    margin-top: 25px;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-left: 40px;
+    gap: 15px;
+}
+
+.add{
+    width: 100px;
+
+}
